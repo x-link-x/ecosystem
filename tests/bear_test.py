@@ -35,7 +35,6 @@ class TestBear( unittest.TestCase ):
         self.assertEqual( expected, actual )
         self.assertEqual( [self.fish_1, self.fish_2], self.river.fish )
     
-    
     def test_roar(self):
         expected = "ROOOOOAARRRRRR"
         actual = self.bear.roar()

@@ -2,7 +2,6 @@ import unittest
 from src.river import *
 from src.fish import *
 
-
 class TestRiver( unittest.TestCase ):
 
     def setUp(self):
@@ -25,7 +24,3 @@ class TestRiver( unittest.TestCase ):
         expected = 3
         actual = self.river.fish_count()
         self.assertEqual( expected, actual )
-
-
-
-    
