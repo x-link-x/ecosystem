@@ -46,4 +46,3 @@ class TestBear( unittest.TestCase ):
         actual = self.bear.food_count()
         self.assertEqual( expected, actual )
 
-        
